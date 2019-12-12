@@ -1,11 +1,9 @@
 // Mixins in here
-.custom-button(@eastern-blue){
-    display: flex;
-    justify-content: center;
+.custom-button(@display, @justify){
+    display: @display;
+    justify-content: @justify;
     align-items: center;
-    background-color: @eastern-blue;
-    margin: 0 10px 20px;
-    cursor: pointer;
+    background-color:@button-bg;
     width: auto;
     height: 45px;
     font-size: 1.5rem;
